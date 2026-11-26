@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 24px;
+    background: #1f2937;
+}
+
+.navbar a {
+    margin-left: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar .brand {
+    margin-left: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a.active {
+    border-bottom: 2px solid #ffffff;
+}
+
+.container {
+    flex: 1;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.footer {
+    padding: 16px;
+    color: #555555;
+    text-align: center;
+    background: #f3f4f6;
+    font-size: 14px;
+}
+
+.btn {
+    padding: 8px 14px;
+    border: 0;
+    border-radius: 4px;
+    color: #ffffff;
+    background: #2563eb;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.alert {
+    margin-bottom: 16px;
+    padding: 10px 14px;
+    border-radius: 4px;
+}
+
+.alert-success {
+    color: #137333;
+    background: #e6f4ea;
+}
+
+table {
+    width: 100%;
+    margin-top: 16px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    border: 1px solid #cccccc;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.form-control {
+    width: 100%;
+    max-width: 400px;
+    padding: 6px;
+}
+
+.form-group.checkbox label {
+    display: inline;
+}
+
+.error {
+    margin: 4px 0 0;
+    color: #c5221f;
+    font-size: 14px;
+}
+
+.inline-form {
+    display: inline;
+}
